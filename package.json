@@ -1,0 +1,14 @@
+{
+  "name": "swag-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "swagger-cli validate api.yaml"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "swagger-cli": "^2.2.0"
+  }
+}

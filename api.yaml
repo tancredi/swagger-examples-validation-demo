@@ -1,0 +1,29 @@
+openapi: '3.0.0'
+
+info:
+  description: Foo bar
+  version: 1.0.0
+  title: Example
+
+paths:
+  /ping:
+    get:
+      summary: Some example endpoint
+      description: Used to demonstrate a validation issue
+      operationId: ping
+
+      responses:
+        200:
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  din:
+                    type: string
+              examples:
+                Example1:
+                  din: don
+                Example2:
+                  din: dan
